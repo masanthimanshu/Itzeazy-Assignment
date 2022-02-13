@@ -26,7 +26,15 @@ app.post("/two", (req, res) => {
   res.render("page2", twoObj);
 });
 
+app.get("/two", (req, res) => {
+  res.render("page2", twoObj);
+});
+
 app.post("/three", (req, res) => {
+  res.render("page3", threeobj);
+});
+
+app.get("/three", (req, res) => {
   res.render("page3", threeobj);
 });
 
