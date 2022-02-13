@@ -1,0 +1,52 @@
+/* Header Section */
+
+.header-sec h1 {
+  color: var(--dark-grey);
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.header-sec h2 {
+  color: var(--light-grey);
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.header-sec h3 {
+  color: var(--light-grey);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Progress Bar */
+
+.progress {
+  height: 5px;
+  margin: 0 25px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 10px;
+}
+
+.progress div {
+  height: 100%;
+  background-color: var(--dark-grey);
+}
+
+/* Progress Counters */
+
+.progress .one {
+  width: 5%;
+}
+
+.progress .two {
+  width: 35%;
+}
+
+.progress .three {
+  width: 65%;
+}
+
+.progress .four {
+  width: 95%;
+}

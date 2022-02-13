@@ -1,0 +1,26 @@
+<section class="hero-sec">
+  <div>
+
+      {{> header}}
+
+    <form action="/two" method="post">
+      <input type="text" name="fname" placeholder="Your Name" required />
+      <br />
+      <h4>Nature of Driving License ?</h4>
+      <br /><br />
+      <p>
+        <input type="radio" name="radio" value="Private" required />
+        &nbsp; Private
+      </p>
+      <p>
+        <input type="radio" name="radio" value="Commercial" />
+        &nbsp; Commercial
+      </p>
+      <br /><br /><br /><br />
+      <input type="submit" value="Next" class="pri-btn" />
+    </form>
+
+    {{> progress}}
+    
+  </div>
+</section>

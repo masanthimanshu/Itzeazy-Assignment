@@ -1,0 +1,37 @@
+/* Hero Section */
+
+.hero-sec h4 {
+  color: var(--light-grey);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hero-sec form input[type="text"] {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  border: 2px solid var(--light-grey);
+  border-radius: 5px;
+}
+
+.hero-sec form input[type="text"]:focus {
+  border: 2px solid #ff5454;
+  outline: 1px solid #ff5454;
+}
+
+.hero-sec form input[type="radio"]:focus {
+  outline: inherit;
+}
+
+.hero-sec form p {
+  display: inline-block;
+  font-size: 1.25rem;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  color: var(--light-grey);
+  padding: 5px 15px;
+  margin: 0 10px;
+}
+
+.hero-sec form input[type="text"] {
+  width: 50%;
+}

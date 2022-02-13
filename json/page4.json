@@ -1,0 +1,5 @@
+{
+    "title": "Home",
+    "css": "page4.css",
+  "func": "function progress(){$('#progressBar').toggleClass('four')}"
+}

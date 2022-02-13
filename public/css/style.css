@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+@import url("./partial.css");
+
+:root {
+  --main-font: "Open Sans";
+  --dark-grey: #404040;
+  --light-grey: #707070;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pri-btn {
+  cursor: pointer;
+  background-color: #ff5454;
+  color: white;
+  padding: 5px 50px;
+  border: 2px solid #ff5454;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 200px;
+  transition: 0.5s;
+}
+
+.pri-btn:hover {
+  background-color: white;
+  color: #ff5454;
+}
+
+.hero-sec {
+  margin: 10vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

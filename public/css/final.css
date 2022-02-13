@@ -1,0 +1,6 @@
+/* Hero Section */
+
+.hero-sec h4 {
+    font-size: 3rem;
+    color: var(--light-grey);
+}

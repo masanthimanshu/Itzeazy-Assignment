@@ -1,0 +1,27 @@
+/* Hero Section */
+
+.hero-sec h4 {
+  color: var(--light-grey);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero-sec h5 {
+  color: var(--light-grey);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero-sec form p {
+  font-size: 1.25rem;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  color: var(--light-grey);
+  padding: 5px 15px;
+  margin: auto;
+  width: 50%;
+}
+
+.hero-sec form input[type="radio"]:focus {
+  outline: inherit;
+}

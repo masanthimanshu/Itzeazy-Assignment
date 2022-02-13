@@ -1,0 +1,46 @@
+<section class="hero-sec">
+  <div>
+
+    {{> header}}
+
+    <form action="/three" method="post" id="myForm">
+      <select name="issuedYear" id="issuedYear" required>
+        <option value="" disabled selected>Issued year of license
+          <span class="req">*</span></option>
+
+        {{#each year}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+      <br /><br />
+      <select name="expiredYear" id="expiredYear" required>
+        <option value="" disabled selected>Expiring year of license
+          <span class="req">*</span></option>
+
+        {{#each year}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+      <br /><br />
+      <select name="place" id="place">
+        <option value="" disabled selected>Issued place of D.L
+          <span class="req">*</span></option>
+
+        {{#each states}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+    </form>
+    <br /><br /><br />
+    <a href="/">
+      <button class="pri-btn"><i class="fa-solid fa-angle-left"></i>
+        &nbsp; Back</button>
+    </a>
+
+    {{> progress}}
+
+  </div>
+</section>

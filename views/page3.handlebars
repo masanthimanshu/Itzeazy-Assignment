@@ -1,0 +1,51 @@
+<section class="hero-sec">
+  <div>
+
+    {{> header}}
+
+    <h4>Proof of Current Entities</h4>
+    <br />
+
+    <form action="/four" method="post" id="myForm">
+      <select name="DOBproof" id="DOBproof" required>
+        <option value="" disabled selected>Avalible proof of D.O.B
+          <span class="req">*</span></option>
+
+        {{#each proofDOB}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+      <br /><br />
+      <select name="addressProof" id="addressProof" required>
+        <option value="" disabled selected>Address proof available
+          <span class="req">*</span></option>
+
+        {{#each addressProof}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+      <br /><br />
+      <select name="currentDL" id="currentDL">
+        <option value="" disabled selected>Current place of D.L
+          <span class="req">*</span></option>
+
+        {{#each states}}
+          <option value="{{this}}">{{this}}</option>
+        {{/each}}
+
+      </select>
+    </form>
+
+    <br /><br />
+
+    <a href="/two">
+      <button class="pri-btn"><i class="fa-solid fa-angle-left"></i>
+        &nbsp; Back</button>
+    </a>
+
+    {{> progress}}
+
+  </div>
+</section>

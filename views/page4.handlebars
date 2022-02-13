@@ -1,0 +1,39 @@
+<section class="hero-sec">
+  <div>
+
+    {{> header}}
+
+    <h4>ADDITIONAL REQUIREMENTS</h4>
+    <h5>If previous Driving License was issued from different city than current
+      place of residence ?</h5>
+
+    <br /><br />
+
+    <form action="/final" method="post" id="radioForm">
+      <p>
+        <input type="radio" name="radio" value="avalibleNOC" required />
+        &nbsp; NOC availiable from previous city
+      </p>
+
+      <br />
+
+      <p>
+        <input type="radio" name="radio" value="unavalibleNOC" />
+        &nbsp; NOC not availiable from previous city
+      </p>
+
+      <br />
+
+      <p>
+        <input type="radio" name="radio" value="unrequiredNOC" />
+        &nbsp; Same city, NOC not required
+      </p>
+
+      <br /><br />
+      <input type="submit" value="SUBMIT" class="pri-btn" />
+    </form>
+
+    {{> progress}}
+
+  </div>
+</section>
